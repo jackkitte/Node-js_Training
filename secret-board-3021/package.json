@@ -1,17 +1,15 @@
 {
-  "name": "node-js-http",
+  "name": "secret-board",
   "version": "1.0.0",
-  "description": "",
+  "description": "秘密の匿名掲示板",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "http-auth": "^2.2.8",
     "jade": "^1.11.0"
-  },
-  "engines": {
-      "node": "8.10.0"
   }
 }

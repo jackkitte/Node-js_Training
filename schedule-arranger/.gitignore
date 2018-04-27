@@ -5,4 +5,4 @@ node_modules/
 .*.txt
 .*.cpuprofile
 .hubot_history
-package-lock.json
+*/.gitignore
